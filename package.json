@@ -33,5 +33,11 @@
     "eslint-config-next": "15.5.2",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --no-turbo",
+    "start": "next start"
   }
+  
 }
